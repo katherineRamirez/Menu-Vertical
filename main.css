@@ -1,0 +1,63 @@
+/*Reglas de estilo
+ #f9a91a --> Laboratoria
+ #f5f5f0 --> Color de fondo
+ #e0e0d1 --> Color hover
+ #333    --> Color active
+ font-family --> Sans serif
+ */
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    /*outline: 1px solid red;*/
+    width: 200px;
+}
+ul{
+    outline: 1px solid yellow;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+li{
+    /*outline: 1px solid red;*/
+    background: #f5f5f0;
+}
+
+/* Estados de los enlaces : link, Vidited, Hover, Active*/
+/* hover = cambia el color al momento de posicionarme*/
+/* Active = cambia el color al momento de hacer click*/
+a {
+    /*outline: 1px solid green;*/
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+}
+
+a:hover {
+    background: #e0e0d1;
+}
+
+a:active {
+    background: #333;
+    color: #fff;
+}
+
+ul li:first-child {
+    background: #f9a91a;
+}
+
+ul li:first-child a {
+    color: #fff;
+}
+
+ul li:first-child a:hover{
+    color: #000;
+}
+
+ul li:first-child a:active{
+    color: #fff;
+}
